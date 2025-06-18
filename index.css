@@ -536,8 +536,87 @@ h1 {
     background-color: #0056b3; 
 }
 
+.container-header-footer {
+width: 90%;
+margin: auto;
+background: #fff;
+padding: 30px;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-header-footer h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    justify-content: start;
+    text-align: start;
+}
+
+.container-header-footer h1 {
+    font-size: 2.2em;}
+
+.container-header-footer h2 {
+    font-size: 1.8em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.container-header-footer p {
+    margin-bottom: 15px;
+   
+}
 
 
+.container-header-footer a {
+ color: #007bff;
+ text-decoration: none;
+}
+
+.container-header-footer  a:hover {
+ text-decoration: underline;
+}
+
+        
+.highlight {
+font-weight: bold;
+            
+}
+
+ .container-footer {
+    max-width: 90%;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+
+.container-footer h2 {
+     color: #2c3e50;
+     margin-bottom: 25px;
+     font-size: 1.8em;
+}
+
+
+.accordion-item {
+
+   padding: 15px
+}
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #333;
+    font-weight: normal;
+    
+}
+.accordion-header:hover {
+    color: #007bff;
+   
+}
 
  
 
