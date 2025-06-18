@@ -4,7 +4,7 @@
 
 }
 body{
-   background: white; 
+   background: gray; 
    /* height: 100%;
    margin: 0; */
 }
@@ -291,4 +291,47 @@ h1 {
     font-size: 0.8em;
     color: #888;
 }
+.container-summer{
+    
+    width: 90%;
+    background: white;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    text-align: center;
+
+}
+.container-summer-box{
+    
+    height: 450px;
+    width: 50%;
+    gap: 10px;
+    justify-content: start;
+    text-align: start;
+    margin-left: 10px;
+    
+}
+.container-summer-box img{
+    width: 90%;
+    height: 70%;
+    margin: 1px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+
+}
+.container-summer-box h3{
+    font-size: 15px;
+    justify-content: start;
+    text-align: start;
+    margin: 10px;
+}
+.container-summer-box h2{
+    font-size: 17px;
+    justify-content: start;
+    text-align: start;
+    margin: 10px;
+}
+
 
