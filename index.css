@@ -5,7 +5,7 @@
 }
 body{
   
-   
+   margin: 0;
 }
 header{
     background: white;
@@ -75,12 +75,18 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
+    
+    
    
  }
  .subheader-box {
-    top: 180px;
-    position: relative;
     color: white;
+    position: relative;
+    top:100px;
+    bottom: 0;
+    padding: 15px 20px;
+    z-index: 1000;
+    
 
  }
 .subheader-box  p{
@@ -554,24 +560,12 @@ h1 {
     margin: 10px;
 }
 
-
-.hero-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); 
-    z-index: 1; 
-}
-
 .content-card {
     background-color: rgba(255, 255, 255, 0.95); 
     border-radius: 15px;
     padding: 35px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); 
-    z-index: 2; 
+    
     max-width: 450px; 
     text-align: left;
     margin-right: auto; 
@@ -615,7 +609,7 @@ margin: auto;
 background: #fff;
 padding: 30px;
  border-radius: 8px;
- box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .container-header-footer h1, h2 {
@@ -689,6 +683,20 @@ font-weight: bold;
 .accordion-header:hover {
     color: #007bff;
    
+}
+#ni{
+left: -100px;
+   position: absolute;
+}
+select{
+ border: none;
+ cursor: pointer;
+ justify-content: end;
+ text-align: end;
+
+}
+.accordion-header select:hover{
+   color: #007bff; 
 }
 
  
