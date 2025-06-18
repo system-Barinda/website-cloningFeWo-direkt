@@ -4,7 +4,7 @@
 
 }
 body{
-   background: gray; 
+   background: white; 
    /* height: 100%;
    margin: 0; */
 }
@@ -175,3 +175,120 @@ h1 {
     font-size: 0.9em;
     font-weight: 600;
 }
+
+  /* this the price do we have  */
+
+.weekend-trips-section {
+    width: 90%; 
+
+    margin: 50px; 
+    padding: 20px;
+   
+}
+
+.section-header {
+    margin-bottom: 30px;
+    justify-content: start;
+    text-align: start;
+     
+}
+
+.section-header h2 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.section-header p {
+    font-size: 1.1em;
+    color: #666;
+    margin: 0;
+}
+
+.trip-cards-container {
+    display: flex;
+    gap: 20px; 
+    padding-bottom: 20px;
+   
+}
+
+
+.trip-card {
+    flex: 0 0 auto;
+    width: calc(25% - 16px); 
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: relative; 
+    padding-bottom: 15px; 
+}
+
+.card-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.rating-score {
+    background-color: #38b44e; 
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.trip-card h3 {
+    font-size: 1.15em;
+    color: #333;
+    margin: 0 15px 5px;
+    line-height: 1.4;
+}
+
+.trip-card .location {
+    font-size: 0.9em;
+    color: #777;
+    margin: 0 15px 15px;
+}
+
+.price-info {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.price-info .current-price {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #333;
+}
+
+.price-info .per-night {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.price-info .fees {
+    font-size: 0.8em;
+    color: #888;
+}
+
